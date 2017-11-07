@@ -6825,7 +6825,7 @@
 
 	var Segment = exports = module.exports = integration('Segment.io')
 		.option('apiKey', '')
-		.option('apiHost', 'api.segment.io/v1')
+		.option('apiHost', 'track.realtimeboard.com/api/v1')
 		.option('crossDomainIdServers', [])
 		.option('retryQueue', false)
 		.option('addBundledMetadata', false)
